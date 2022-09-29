@@ -33,8 +33,8 @@ export default CopyCat;
 
 CopyCat.propTypes = {
   input: PropTypes.string.isRequired,
-  onChange: PropTypes.func.isRequired,
+  handleChange: PropTypes.func.isRequired,
   toggleTape: PropTypes.func.isRequired,
-  copyng: PropTypes.bool.isRequired,
+  copying: PropTypes.bool.isRequired,
   name: PropTypes.string
 }

@@ -15,13 +15,14 @@ export class CopyCatContainer extends React.Component {
   }
 
   handleChange(e) {
-    console.log(e.target.value)
+    console.log(`handleChange called with ${e.target.value}`);
     this.setState({
       input: e.target.value
     })
   }
 
   toggleTape() {
+    console.log('toggleTape called');
     this.setState({copying: !this.state.copying})
   }
   
