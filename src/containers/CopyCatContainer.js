@@ -15,7 +15,7 @@ export class CopyCatContainer extends React.Component {
   }
 
   handleChange(e) {
-    console.log(`handleChange called with ${e.target.value}`);
+    console.log(`handleChange called with ${e.target.value ? e.target.value : 'null'}`);
     this.setState({
       input: e.target.value
     })
