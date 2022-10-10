@@ -3,10 +3,11 @@ const fontSize = '5vh';
 const backgroundColor = '#282c34';
 const minHeight = '100vh';
 const minWidth = 400;
+const maxWidth = 1000;
 const display = 'flex';
 const flexDirection = 'column';
 const alignItems = 'center';
-const justifyContent = 'center';
+/*const justifyContent = 'center';*/
 const color = 'white';
 const marginTop = '20px';
 const width = '50%';
@@ -18,10 +19,11 @@ const divStyles = {
   backgroundColor: backgroundColor,
   minHeight: minHeight,
   minWidth: minWidth,
+  maxWidth: maxWidth,
   display: display,
   flexDirection: flexDirection,
   alignItems: alignItems,
-  justifyContent: justifyContent,
+  /*justifyContent: justifyContent,*/
 };
 
 const imgStyles = {
